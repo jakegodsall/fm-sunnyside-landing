@@ -5,7 +5,7 @@ import arrowIcon from "@images/icon-arrow-down.svg";
 
 export default function Hero() {
     return (
-        <section className="flex h-screen flex-col items-center">
+        <section className="relative flex flex-col items-center">
             <h1 className="mb-[5.2rem] text-center font-serif text-[4rem] uppercase tracking-[0.625rem] text-white">
                 We are creatives
             </h1>
