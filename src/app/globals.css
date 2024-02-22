@@ -3,16 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --main-text: #24303e;
-  --grey: #808397;
+    --main-text: #24303e;
+    --grey: #808397;
 
-  --green-text: #24554a;
-  --green-background: #90d4c6;
+    --green-text: #24554a;
+    --green-background: #90d4c6;
 
-  --blue-text: #052c3b;
-  --blue-background: #4abdf2;
+    --blue-text: #052c3b;
+    --blue-background: #4abdf2;
 
-  --yellow-background: #f8d800;
+    --yellow-background: #f8d800;
 
-  --red-background: #ff7060;
+    --red-background: #ff7060;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
