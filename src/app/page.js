@@ -1,11 +1,18 @@
 import Image from "next/image";
 
+// Hero Section
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import InfoSection from "./components/InfoSection/InfoSection";
 
+// Info Section
+import InfoSection from "./components/InfoSection";
 import eggImage from "@images/mobile/image-transform.jpg";
 import cupImage from "@images/mobile/image-stand-out.jpg";
+
+// Service Section
+import ServiceSection from "./components/ServiceSection";
+import cherryImage from "@images/mobile/image-graphic-design.jpg";
+import orangeImage from "@images/mobile/image-photography.jpg";
 
 export default function Home() {
     return (
@@ -20,9 +27,21 @@ export default function Home() {
             />
             <InfoSection
                 title="Stand out to the right audience"
-                description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places."
+                description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places."
                 image={cupImage}
                 alt="cup"
+            />
+            <ServiceSection
+                image={cherryImage}
+                alt="cherries"
+                title="Graphic Design"
+                description="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+            />
+            <ServiceSection
+                image={orangeImage}
+                alt="orange"
+                title="Photography"
+                description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
             />
         </main>
     );
