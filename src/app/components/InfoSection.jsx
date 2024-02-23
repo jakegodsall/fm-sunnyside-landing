@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-export default function InfoSection({ title, description, image, alt }) {
+export default function InfoSection({
+    title,
+    description,
+    image,
+    alt,
+    bgColor,
+}) {
     return (
         <section className="">
             <Image src={image} alt={alt} />
@@ -16,7 +22,9 @@ export default function InfoSection({ title, description, image, alt }) {
                     className="mb-[6rem] inline-block items-center font-serif text-[1.5rem] uppercase"
                 >
                     Learn More
-                    <div className="relative right-[1rem] top-[-1rem] h-[1rem] w-[120%] rounded-[2.8rem] bg-yellow-background opacity-25"></div>
+                    <div
+                        className={`relative right-[1rem] top-[-1rem] h-[1rem] w-[120%] rounded-[2.8rem] ${bgColor} opacity-25`}
+                    ></div>
                 </a>
             </div>
         </section>

@@ -24,24 +24,28 @@ export default function Home() {
                 description="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."
                 image={eggImage}
                 alt="egg"
+                bgColor="bg-[#FAD400]"
             />
             <InfoSection
                 title="Stand out to the right audience"
                 description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places."
                 image={cupImage}
                 alt="cup"
+                bgColor="bg-[#FE7766]"
             />
             <ServiceSection
                 image={cherryImage}
                 alt="cherries"
                 title="Graphic Design"
                 description="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+                textColor="text-[#24554A]"
             />
             <ServiceSection
                 image={orangeImage}
                 alt="orange"
                 title="Photography"
                 description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+                textColor="text-[#19536C]"
             />
         </main>
     );
