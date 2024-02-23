@@ -13,6 +13,7 @@ import cupImage from "@images/mobile/image-stand-out.jpg";
 import ServiceSection from "./components/ServiceSection";
 import cherryImage from "@images/mobile/image-graphic-design.jpg";
 import orangeImage from "@images/mobile/image-photography.jpg";
+import TestimonialSection from "./components/TestimonialSection/TestimonialSection";
 
 export default function Home() {
     return (
@@ -47,6 +48,7 @@ export default function Home() {
                 description="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
                 textColor="text-[#19536C]"
             />
+            <TestimonialSection />
         </main>
     );
 }
