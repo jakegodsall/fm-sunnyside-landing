@@ -15,6 +15,7 @@ import cherryImage from "@images/mobile/image-graphic-design.jpg";
 import orangeImage from "@images/mobile/image-photography.jpg";
 import TestimonialSection from "./components/TestimonialSection/TestimonialSection";
 import ImageGrid from "./components/ImageGrid";
+import Footer from "./components/Footer";
 
 export default function Home() {
     return (
@@ -51,6 +52,7 @@ export default function Home() {
             />
             <TestimonialSection />
             <ImageGrid />
+            <Footer />
         </main>
     );
 }
