@@ -14,6 +14,7 @@ import ServiceSection from "./components/ServiceSection";
 import cherryImage from "@images/mobile/image-graphic-design.jpg";
 import orangeImage from "@images/mobile/image-photography.jpg";
 import TestimonialSection from "./components/TestimonialSection/TestimonialSection";
+import ImageGrid from "./components/ImageGrid";
 
 export default function Home() {
     return (
@@ -49,6 +50,7 @@ export default function Home() {
                 textColor="text-[#19536C]"
             />
             <TestimonialSection />
+            <ImageGrid />
         </main>
     );
 }
