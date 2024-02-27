@@ -8,7 +8,7 @@ export default function ServiceSection({
     textColor,
 }) {
     return (
-        <section className="relative flex flex-col items-center text-center">
+        <section className="fle relative flex-col items-center text-center">
             <Image src={image} alt={alt} />
             <div className={`absolute bottom-[2rem] px-[2rem] ${textColor}`}>
                 <h2 className="mb-[2.7rem] font-serif text-[2.8rem]">

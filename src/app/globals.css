@@ -20,10 +20,17 @@
 html {
     font-size: 62.5%;
     color: var(--main-text);
+    background: linear-gradient(to bottom, #4abdf2, #90d4c6);
+    background-color: var(--blue-background);
+}
+
+body {
+    background: linear-gradient(to bottom, #4abdf2, #90d4c6);
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    /* background-color: #fff;d */
 }

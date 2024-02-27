@@ -10,7 +10,7 @@ export default function InfoSection({
     return (
         <section className="">
             <Image src={image} alt={alt} />
-            <div className="px-[2.4rem] pt-[5rem] text-center">
+            <div className="bg-white px-[2.4rem] pt-[5rem] text-center">
                 <h2 className="mb-[2.4rem] font-serif text-[3.2rem]">
                     {title}
                 </h2>

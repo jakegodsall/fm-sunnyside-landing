@@ -35,7 +35,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
     return (
-        <section className="mb-[8rem] flex flex-col items-center pt-[4rem]">
+        <section className="flex flex-col items-center bg-white pb-[8rem] pt-[4rem]">
             <h2 className="mb-[4rem] font-serif text-[1.6rem] uppercase tracking-[0.4rem] text-[#A7AAAD]">
                 Client testimonials
             </h2>
