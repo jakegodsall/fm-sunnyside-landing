@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import logo from "@images/logo.svg";
-import HamburgerButton from "./HamburgerButton";
+import HamburgerButton from "../UI/HamburgerButton/HamburgerButton";
 
 export default function Header() {
     return (

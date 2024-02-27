@@ -1,21 +1,21 @@
 import Image from "next/image";
 
 // Hero Section
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 
 // Info Section
-import InfoSection from "./components/InfoSection";
+import InfoSection from "./components/MainSections/InfoSection/InfoSection";
 import eggImage from "@images/mobile/image-transform.jpg";
 import cupImage from "@images/mobile/image-stand-out.jpg";
 
 // Service Section
-import ServiceSection from "./components/ServiceSection";
+import ServiceSection from "./components/MainSections/ServiceSection/ServiceSection";
 import cherryImage from "@images/mobile/image-graphic-design.jpg";
 import orangeImage from "@images/mobile/image-photography.jpg";
-import TestimonialSection from "./components/TestimonialSection/TestimonialSection";
-import ImageGrid from "./components/ImageGrid";
-import Footer from "./components/Footer";
+import TestimonialSection from "./components/MainSections/TestimonialSection/TestimonialSection";
+import ImageGrid from "./components/ImageGrid/ImageGrid";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
     return (
