@@ -21,6 +21,9 @@ module.exports = {
                 "yellow-background": "var(--yellow-background)",
                 "red-background": "var(--red-background)",
             },
+            backgroundImage: {
+                "hero-bg": "url('/assets/images/mobile/image-header.jpg')",
+            },
         },
     },
     plugins: [],
