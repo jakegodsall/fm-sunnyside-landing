@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { AnimatePresence } from "framer-motion";
 
 import logo from "@images/logo.svg";
 import HamburgerButton from "../UI/HamburgerButton/HamburgerButton";
@@ -23,7 +24,9 @@ export default function Header() {
                     setHamburgerActive={handleHamburgerClicked}
                 />
             </header>
-            {hamburgerActive && <MobileMenu />}
+            <AnimatePresence>
+                {hamburgerActive && <MobileMenu />}
+            </AnimatePresence>
         </>
     );
 }
