@@ -22,7 +22,10 @@ module.exports = {
                 "red-background": "var(--red-background)",
             },
             backgroundImage: {
-                "hero-bg": "url('/assets/images/mobile/image-header.jpg')",
+                "hero-bg-mobile":
+                    "url('/assets/images/mobile/image-header.jpg')",
+                "hero-bg-desktop":
+                    "url('/assets/images/desktop/image-header.jpg')",
             },
         },
     },

@@ -19,7 +19,7 @@ export default function DesktopNav() {
                     >
                         Services
                     </Link>
-                </li>
+            </li>
                 <li>
                     <Link
                         href="#"
