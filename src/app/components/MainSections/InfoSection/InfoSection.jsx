@@ -26,11 +26,11 @@ export default function InfoSection({
                 </p>
                 <a
                     href="#"
-                    className="mb-[6rem] inline items-center self-start font-serif text-[1.5rem] uppercase sm:mx-[6rem]"
+                    className="relative z-20 mb-[6rem] inline items-center self-start font-serif text-[1.5rem] uppercase sm:mx-[6rem]"
                 >
                     Learn More
                     <div
-                        className={`relative right-[1rem] top-[-1rem] h-[1rem] w-[120%] rounded-[2.8rem] ${bgColor} w-[120%] opacity-25`}
+                        className={`relative right-[1rem] top-[-1rem] h-[1rem] w-[120%] rounded-[2.8rem] ${bgColor} w-[120%] opacity-25 hover:opacity-80`}
                     ></div>
                 </a>
             </div>
