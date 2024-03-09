@@ -21,7 +21,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={clsx(barlow.variable, fraunces.variable)}>
+            <body
+                className={clsx(
+                    "flex flex-col items-center",
+                    barlow.variable,
+                    fraunces.variable,
+                )}
+            >
                 {children}
             </body>
         </html>

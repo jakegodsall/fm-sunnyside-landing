@@ -15,7 +15,7 @@ import InfoGrid from "./components/MainSections/InfoSection/InfoGrid";
 
 export default function Home() {
     return (
-        <main className="flex flex-col items-center">
+        <main className="flex max-w-[120rem] flex-col items-center">
             <Header />
             <Hero />
             <InfoGrid />
