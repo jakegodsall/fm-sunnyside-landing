@@ -4,11 +4,6 @@ import Image from "next/image";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 
-// Info Section
-import InfoSection from "./components/MainSections/InfoSection/InfoSection";
-import eggImage from "@images/mobile/image-transform.jpg";
-import cupImage from "@images/mobile/image-stand-out.jpg";
-
 // Service Section
 import ServiceSection from "./components/MainSections/ServiceSection/ServiceSection";
 import cherryImage from "@images/mobile/image-graphic-design.jpg";
@@ -16,26 +11,14 @@ import orangeImage from "@images/mobile/image-photography.jpg";
 import TestimonialSection from "./components/MainSections/TestimonialSection/TestimonialSection";
 import ImageGrid from "./components/ImageGrid/ImageGrid";
 import Footer from "./components/Footer/Footer";
+import InfoGrid from "./components/MainSections/InfoSection/InfoGrid";
 
 export default function Home() {
     return (
         <main className="flex flex-col items-center">
             <Header />
             <Hero />
-            <InfoSection
-                title="Transform your brand"
-                description="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."
-                image={eggImage}
-                alt="egg"
-                bgColor="bg-[#FAD400]"
-            />
-            <InfoSection
-                title="Stand out to the right audience"
-                description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places."
-                image={cupImage}
-                alt="cup"
-                bgColor="bg-[#FE7766]"
-            />
+            <InfoGrid />
             <ServiceSection
                 image={cherryImage}
                 alt="cherries"
