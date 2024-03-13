@@ -18,13 +18,13 @@ export default function Footer() {
             </div>
             <nav>
                 <ul className="mb-[8.6rem] flex gap-[6rem]">
-                    <li className="font-sans text-[1.8rem] text-green-text">
+                    <li className="font-sans text-[1.8rem] text-green-text transition-all duration-100 hover:text-white">
                         <Link href="#">About</Link>
                     </li>
-                    <li className="font-sans text-[1.8rem] text-green-text">
+                    <li className="font-sans text-[1.8rem] text-green-text transition-all duration-100 hover:text-white">
                         <Link href="#">Services</Link>
                     </li>
-                    <li className="font-sans text-[1.8rem] text-green-text">
+                    <li className="font-sans text-[1.8rem] text-green-text transition-all duration-100 hover:text-white">
                         <Link href="#">Projects</Link>
                     </li>
                 </ul>
