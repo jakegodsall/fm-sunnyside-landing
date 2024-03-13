@@ -6,7 +6,7 @@ import cupImage from "@images/mobile/image-stand-out.jpg";
 
 export default function InfoGrid() {
     return (
-        <section className="flex flex-col">
+        <section className="flex w-full flex-col">
             <InfoSection
                 title="Transform your brand"
                 description="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."

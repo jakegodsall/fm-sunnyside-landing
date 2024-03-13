@@ -11,7 +11,7 @@ import orangeImageDesktop from "@images/desktop/image-photography.jpg";
 export default function ServiceGrid() {
     return (
         <>
-            <section className="flex flex-col sm:hidden sm:flex-row">
+            <section className="flex flex-col sm:hidden sm:min-h-[38rem] sm:flex-row">
                 <ServiceSection
                     image={cherryImageMobile}
                     alt="cherries"
@@ -27,7 +27,7 @@ export default function ServiceGrid() {
                     textColor="text-[#19536C]"
                 />
             </section>
-            <section className="hidden flex-col sm:flex sm:flex-row">
+            <section className="hidden flex-col sm:flex sm:min-h-[38rem] sm:flex-row">
                 <ServiceSection
                     image={cherryImageDesktop}
                     alt="cherries"
