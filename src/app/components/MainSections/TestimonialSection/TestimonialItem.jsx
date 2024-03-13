@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TestimonialItem({ avatar, name, role, message }) {
     return (
-        <div className="flex flex-col items-center px-[2.4rem] text-center">
+        <div className="flex flex-col items-center px-[2.4rem] text-center sm:px-0">
             <Image
                 src={avatar}
                 alt={name}
@@ -14,7 +14,7 @@ export default function TestimonialItem({ avatar, name, role, message }) {
                 {message}
             </p>
             <h3 className="mb-[0.9rem] font-serif text-[1.8rem]">{name}</h3>
-            <p className="text-[#A7AAAD] text-[1.4rem]">{role}</p>
+            <p className="text-[1.4rem] text-[#A7AAAD]">{role}</p>
         </div>
     );
 }

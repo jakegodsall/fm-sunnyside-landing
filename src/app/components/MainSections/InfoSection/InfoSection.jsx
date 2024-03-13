@@ -12,9 +12,19 @@ export default function InfoSection({
     return (
         <section className="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1">
             <div className="relative">
-                <Image src={image} alt={alt} fill />
+                <Image
+                    src={image}
+                    alt={alt}
+                    fill
+                    style={{ objectFit: "cover" }}
+                />
             </div>
-            <div className="bg-white px-[2.4rem] pt-[5rem] text-center sm:flex sm:flex-col sm:justify-center sm:px-0 sm:text-left">
+            <div
+                className={clsx(
+                    "bg-white px-[2.4rem] pt-[5rem] text-center sm:flex sm:flex-col sm:justify-center sm:px-0 sm:text-left",
+                    reverse ? "sm:row-start-1" : "",
+                )}
+            >
                 <h2 className="mb-[2.4rem] font-serif text-[3.2rem] sm:mx-[6rem]">
                     {title}
                 </h2>

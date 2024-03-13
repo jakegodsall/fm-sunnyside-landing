@@ -12,7 +12,7 @@ import ServiceGrid from "./components/MainSections/ServiceSection/ServiceGrid";
 
 export default function Home() {
     return (
-        <main className="flex w-full max-w-[120rem] flex-col items-center">
+        <main className="flex w-full max-w-[100rem] flex-col items-center">
             <Header />
             <Hero />
             <InfoGrid />

@@ -21,7 +21,7 @@ const testimonials = [
         name: "Thomas S.",
         role: "Chief Operating Officer",
         message:
-            "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
+            "Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.",
     },
     {
         id: 3,
@@ -35,11 +35,11 @@ const testimonials = [
 
 export default function TestimonialSection() {
     return (
-        <section className="flex flex-col items-center bg-white pb-[8rem] pt-[4rem]">
+        <section className="flex w-full flex-col items-center bg-white pb-[8rem] pt-[4rem] sm:px-[10rem] sm:py-[16rem]">
             <h2 className="mb-[4rem] font-serif text-[1.6rem] uppercase tracking-[0.4rem] text-[#A7AAAD]">
                 Client testimonials
             </h2>
-            <ul className="flex flex-col gap-[6.4rem]">
+            <ul className="flex flex-col gap-[6.4rem] sm:flex-row sm:gap-[2.5rem]">
                 {testimonials.map((testimonial) => (
                     <li key={testimonial.id}>
                         <TestimonialItem
