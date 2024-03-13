@@ -18,6 +18,7 @@
 }
 
 html {
+    width: 100%;
     font-size: 62.5%;
     color: var(--main-text);
     background: linear-gradient(to bottom, #4abdf2, #90d4c6);
@@ -25,6 +26,7 @@ html {
 }
 
 body {
+    width: 100%;
     background: linear-gradient(to bottom, #4abdf2, #90d4c6);
 }
 
