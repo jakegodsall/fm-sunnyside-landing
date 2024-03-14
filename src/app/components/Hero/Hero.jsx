@@ -7,7 +7,6 @@ import arrowIcon from "@images/icon-arrow-down.svg";
 
 export default function Hero() {
     function scrollDown() {
-        console.log("arrow is clicked");
         const viewportHeight = window.innerHeight;
         window.scrollBy({
             top: viewportHeight,
