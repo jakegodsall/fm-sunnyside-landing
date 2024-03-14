@@ -12,7 +12,7 @@ export default function InfoGrid() {
                 description="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."
                 image={eggImage}
                 alt="egg"
-                bgColor="bg-[#FAD400]"
+                bgColor="yellow"
                 reverse={true}
             />
             <InfoSection
@@ -20,7 +20,7 @@ export default function InfoGrid() {
                 description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places."
                 image={cupImage}
                 alt="cup"
-                bgColor="bg-[#FE7766]"
+                bgColor="red"
                 reverse={false}
             />
         </section>

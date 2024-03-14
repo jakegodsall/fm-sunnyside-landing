@@ -34,12 +34,16 @@ export default function InfoSection({
                     </p>
                     <a
                         href="#"
-                        className="relative z-20 mb-[6rem] inline items-center self-start font-serif text-[1.5rem] uppercase sm:mx-[6rem]"
+                        className={clsx(
+                            "after:bg-[${bgColor}] relative z-20 mb-[6rem] inline items-center self-start font-serif text-[1.5rem] uppercase after:absolute after:left-0 after:top-[1rem] after:-z-10 after:h-[1rem] after:w-full after:opacity-25 after:transition-opacity after:duration-300 after:content-[''] after:hover:opacity-75 sm:mx-[6rem]",
+                            bgColor === "yellow" && "after:bg-[#fad400]",
+                            bgColor === "red" && "after:bg-[#FE7766]",
+                        )}
                     >
                         Learn More
-                        <div
-                            className={`relative right-[1rem] top-[-1rem] h-[1rem] w-full rounded-[2.8rem] ${bgColor} w-[120%] opacity-25 hover:opacity-80`}
-                        ></div>
+                        {/* <div
+                            className={`relative right-[1rem] top-[-1rem] h-[1rem] w-full rounded-[2.8rem] ${bgColor} opacity-25 hover:opacity-80`}
+                        ></div> */}
                     </a>
                 </div>
             </div>
